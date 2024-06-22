@@ -1,0 +1,153 @@
+@media only screen and (max-width: 900px) {
+  .main-logo img {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .nav-links {
+    width: 0;
+    position: absolute;
+    left: -40vw;
+    right: 0;
+    top: 0;
+    background-color: rgba(15, 15, 15, 0.918);
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .nav-links.active {
+    height: 65vh;
+    width: 100vw;
+    border: 5px solid #e81922;
+  }
+  .nav-links ul {
+    padding-top: 100px;
+    padding-left: 150px;
+  }
+  .nav-links ul li {
+    display: block;
+    width: fit-content;
+    transition: 0.5s;
+    opacity: 0;
+    margin: 54px auto 0 auto;
+  }
+  .nav-links.active ul li {
+    opacity: 1;
+  }
+  .nav-links ul li a {
+    color: white;
+  }
+  .hamburger i {
+    display: block;
+  }
+
+  /* ********************** Main Section Start *********************** */
+  section.main-section {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .left-area h1 {
+    font-size: 48px;
+    padding: 50px 50px 0 50px;
+  }
+  .left-area .main-para {
+    padding: 10px 50px 0 50px;
+  }
+  .left-area .img-link-para {
+    padding: 0 50px 0 50px;
+  }
+  .left-area button {
+    margin-left: 50px;
+  }
+  .right-area .main-pic img {
+    width: 330px;
+    height: 330px;
+    margin-top: 0px;
+  }
+
+  /* ********************** Main Box Section Start *********************** */
+  section.main-boxs {
+    flex-direction: column;
+    align-items: center;
+    height: 1400px;
+  }
+  .main-boxs .box {
+    width: 340px;
+    height: 320px;
+    margin: 5px;
+  }
+  .main-boxs .box img {
+    width: 335px;
+    height: 315px;
+  }
+
+  /* ********************** Breakfast Section Start *********************** */
+  section.breakfast {
+    height: 980px;
+  }
+  .breakfast .detail-box {
+    position: absolute;
+    left: 20px;
+    top: 2860px;
+    width: 290px;
+    height: 580px;
+    padding: 30px 10px;
+  }
+  .breakfast .detail-box h2 {
+    font-size: 30px;
+    margin-top: 23px;
+  }
+  .breakfast .detail-box p {
+    font-size: 18px;
+  }
+  .breakfast .pic-box {
+    width: 312px;
+    height: 490px;
+    position: absolute;
+    left: 46px;
+    margin-top: -210px;
+  }
+  .breakfast .red-box {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 3000px;
+    right: 5px;
+    margin-top: -430px;
+  }
+  .breakfast .red-box .box {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* ********************** Menu List Section Start *********************** */
+  section.menu-list {
+    height: 2390px;
+    padding-top: 195px;
+    background-size: 1040px;
+    background-position: top;
+  }
+  .menu-list .row1,
+  .menu-list .row2 {
+    flex-direction: column;
+  }
+  .menu-list .row1 .box,
+  .menu-list .row2 .box {
+    width: 340px;
+    height: 315px;
+    padding: 30px 20px 30px 30px;
+    margin: 15px;
+    background-color: #292727ab;
+  }
+  .menu-list .row1 .box .heading .red-circle {
+    font-size: 36px;
+  }
+
+/* ********************** Delivery Services Section Start *********************** */
+section.delivery-services{
+
+}
+.delivery-services .red-circle{
+  position: relative;
+    top: 70px;
+    left: 207px;
+}
+}

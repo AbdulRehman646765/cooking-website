@@ -1,0 +1,584 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ********************** Header Create *********************** */
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* *********** Left Side Start ************ */
+.left-side {
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 80px;
+}
+
+/* *********** Right Side Start ************ */
+.right-side {
+  margin-right: -80px;
+}
+
+.nav-links ul li {
+  display: inline;
+}
+
+.nav-links ul li a {
+  color: black;
+  text-transform: uppercase;
+  padding: 0 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: #e81922;
+}
+
+.hamburger i {
+  display: none;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background-color: black;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+/* ********************** Main Section Create *********************** */
+section.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+}
+
+/* *********** Left Area Start ************ */
+.left-area h1 {
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.left-area span {
+  color: #e81922;
+}
+
+.left-area .main-para {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.left-area .main-para a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.left-area .main-para a:hover {
+  border: none;
+}
+
+.left-area .img-link-para {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.left-area .img-link-para a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.left-area .img-link-para a:hover {
+  border-bottom: 1px solid #e81922;
+}
+
+.left-area button {
+  width: 233px;
+  height: 55px;
+  margin-top: 45px;
+  background-color: #e81922;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+
+.left-area button:hover {
+  background-color: black;
+}
+
+/* *********** Right Area Start ************ */
+.right-area .main-pic img {
+  width: 540px;
+  height: 540px;
+  border-radius: 50%;
+}
+
+/* ********************** Main Boxs Section Create *********************** */
+section.main-boxs {
+  display: flex;
+  justify-content: center;
+}
+
+.main-boxs .box {
+  border: 2px solid rgb(194, 194, 194);
+  width: 275px;
+  height: 275px;
+  margin: 20px 5px 50px 5px;
+}
+
+.main-boxs .box img {
+  width: 270px;
+  height: 270px;
+  padding: 5px;
+}
+
+/* ********************** Breakfast Section Create *********************** */
+section.breakfast {
+  height: 815px;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+
+/* *********** Breakfast Detail-Box ************ */
+.breakfast .detail-box,
+.delivery-services .detail-box {
+  background-color: white;
+  width: 405px;
+  height: 500px;
+  padding: 30px 30px 30px 40px;
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  top: 1430px;
+  border: 10px solid #e5e5e5;
+}
+
+.breakfast .detail-box h2,
+.delivery-services .detail-box {
+  font-size: 36px;
+  margin-top: 23px;
+}
+
+.breakfast .detail-box p,
+.delivery-services .detail-box {
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.breakfast .detail-box button,
+.delivery-services .detail-box button,
+.fast-food button {
+  font-family: "Poppins", sans-serif;
+  background-color: #e81922;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 213px;
+  height: 55px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.breakfast .detail-box button:hover {
+  background-color: black;
+}
+
+/* *********** Breakfast Pic-Box ************ */
+.breakfast .pic-box {
+  width: 576px;
+  height: 490px;
+  background-image: url("img/pic5.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 445px;
+}
+
+/* *********** Breakfast Red-Box ************ */
+.breakfast .red-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  background-color: #e81922;
+  border-radius: 50%;
+  position: absolute;
+  right: 130px;
+  margin-top: -460px;
+  border: 10px solid #e5e5e5;
+}
+
+.breakfast .red-box .box {
+  background-color: #e5e5e5;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* ********************** Menu List Section Create *********************** */
+section.menu-list {
+  height: 1142px;
+  background-image: url("img/pic6.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-color: #1c1819;
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list .row1,
+.menu-list .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list .row1 .box,
+.menu-list .row2 .box {
+  width: 360px;
+  height: 301px;
+  padding: 30px 20px 30px 30px;
+  margin: 15px;
+  background-color: #292727ab;
+}
+
+.menu-list .row1 .box .heading {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list .row1 .box .heading .red-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #e81922;
+  color: white;
+  font-size: 48px;
+  font-family: "Kalam", cursive;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list .row1 .box .heading h5 {
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
+  letter-spacing: 1.5px;
+}
+
+.menu-list .row1 .box p {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-list .row1 .box a {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border-bottom: 1px solid white;
+}
+
+.menu-list .row1 .box a:hover {
+  color: #b3b3b3;
+}
+
+.menu-list p {
+  font-size: 16px;
+  color: #b3b3b3;
+  margin-top: 10px;
+}
+
+.menu-list a {
+  color: #b3b3b3;
+  border-bottom: 1px solid white;
+}
+
+.menu-list a:hover {
+  border: none;
+}
+
+/* ********************** Delivery Services Section Create *********************** */
+section.delivery-services {
+  height: 1335px;
+  background-color: lightgray;
+}
+
+.delivery-services .red-circle {
+  width: 143px;
+  height: 143px;
+  background-color: #e81922;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 1040px;
+}
+
+.delivery-services .pic-box img {
+  width: 855px;
+  height: 637px;
+  position: absolute;
+  top: 3375px;
+  left: 160px;
+}
+.delivery-services .red-box {
+  width: 1200px;
+  height: 595px;
+  background-color: #e81922;
+  position: absolute;
+  top: 3580px;
+  right: 0;
+}
+
+.delivery-services .detail-box {
+  width: 550px;
+  height: 540px;
+  padding: 30px;
+  position: absolute;
+  left: 650px;
+  top: 3823px;
+  border: 0px solid transparent;
+}
+
+.delivery-services .detail-box h2 {
+  font-size: 36px;
+  margin-top: 46px;
+}
+
+.delivery-services .detail-box p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.delivery-services .detail-box .img-link-para {
+  margin-top: 30px;
+}
+
+.delivery-services .detail-box a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.delivery-services .detail-box a:hover {
+  border-bottom: 1px solid #e81922;
+}
+
+.delivery-services .detail-box button {
+  margin-top: 45px;
+  transition: 0.3s;
+}
+
+.delivery-services .detail-box button:hover {
+  background-color: black;
+}
+
+/* ********************** Fast Food Section Create *********************** */
+section.fast-food {
+  height: 674px;
+  background-image: url("img/pic8.jpg");
+  background-position: center;
+  background-size: 1270px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fast-food h5 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+
+.fast-food h1 {
+  font-size: 96px;
+  font-family: "Alata", sans-serif;
+  margin-left: 60px;
+}
+
+.fast-food p {
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 18px;
+}
+
+.fast-food a {
+  color: white;
+  border-bottom: 1px solid #e81922;
+}
+
+.fast-food a:hover {
+  border-bottom: 1px solid white;
+}
+
+.fast-food button {
+  margin-left: 60px;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.fast-food button:hover {
+  background-color: #c4131b;
+}
+
+/* ********************** Burger Menu Section Create *********************** */
+section.burger-menu {
+  height: 1060px;
+}
+
+.burger-menu h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.burger-menu p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.burger-menu .boxs {
+  margin-top: 15px;
+}
+
+.burger-menu .boxs .row1 {
+  display: flex;
+  justify-content: center;
+}
+
+.burger-menu .boxs .row1 .box {
+  width: 555px;
+  height: 260px;
+  margin: 5px;
+  background-image: url("img/pic9.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.burger-menu .boxs .row1 .box .detail{
+  width: 279px;
+  height: 260px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.burger-menu .boxs .row1 .box .detail h4 {
+  font-size: 24px;
+}
+
+.burger-menu .boxs .row1 .box .detail h6 {
+  font-size: 20px;
+  color: #ef5a60;
+  margin-top: 20px;
+}
+
+.burger-menu .boxs .row1 .box .detail button {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 164px;
+  height: 43px;
+  background-color: #e81922;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.burger-menu .boxs .row1 .box .detail button:hover{
+  background-color: #ef5a60;
+}
+
+.burger-menu-link a{
+  color: black;
+  border-bottom: 1px solid #000;
+}
+
+.burger-menu-link a:hover{
+  border-bottom: 1px solid #e81922;
+}
+
+/* ********************** Pizza Roll Section Create *********************** */
+section.pizza-roll{
+  height: 710px;
+  background-image: url('img/pic15.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.pizza-roll .box{
+  width: 471px;
+  height: 532px;
+  background-color: white;
+  padding: 40px 80px 45px;
+  margin-left: 63px;
+  position: relative;
+  top: 60px;
+  box-shadow: 0 0 2px 0px white;
+}
+
+.pizza-roll p{
+  color: white;
+  margin-top: 95px;
+  margin-left: 63px;
+}
+
+.pizza-roll a{
+  color: white;
+  border-bottom: 2px solid #e81922;
+}
+
+.pizza-roll a:hover{
+  border: none;
+}
